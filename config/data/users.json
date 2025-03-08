@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "uuid": "fa47e38e-f1e9-445d-9f5a-205a0e59f04e",
+      "id": 1,
+      "firstName": "Super",
+      "lastName": "Admin",
+      "email": "superadmin@gmail.com",
+      "userName": "superadmin",
+      "type": "administrator",
+      "status": "active",
+      "password": "$2a$10$vtllem50mZCrNxtovMJvGecZc/D82ezOb1xElCtu1lNv7PTsBJdeC"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "uuid": "ac332a62-b540-4457-86f1-e976e5df55a7",
+      "id": 3,
+      "company": "Apple Inc.",
+      "image": "http://localhost:5000/assets/Apple-App-Store.jpg",
+      "title": "Apple most downloaded apps and games on the App Store",
+      "link": "https://nr.apple.com/dJ8p8J6Er1",
+      "date": "12/16/2024",
+      "content": "As 2024 comes to a close, Apple is excited to unveil the most downloaded apps and games of the year across iPhone, iPad, and Apple Arcade, with charts localized for users in more than 30 countries and regions. Now available on the App Store’s Today tab, the year-end charts include the top free and paid apps and games, as well as the top Apple Arcade games. Users can also discover the 2024 App Store Award winners, 17 exceptional apps and games selected by App Store Editors that helped users ignite their creativity, achieve new milestones, and cherish everyday moments with family and friends across the App Store and the Apple ecosystem.\r\n\r\nThe App Store is the safest and best place for users to discover and download apps and games, thanks to the integration of industry-leading tools, technologies, and expert human curation led by App Review and Editorial teams. As part of this trusted discovery experience, App Store Editors around the world recommend tens of thousands of apps annually across the Today, Apps, and Games tabs to help users discover the best apps, games, in-app events, original stories, in-depth interviews, collections, and more.\r\n\r\nCheck out this year’s most downloaded iPhone and iPad apps, games, and Arcade charts of 2024 in the U.S.",
+      "status": "For Edit",
+      "writer": "super admin",
+      "editor": null
+    },
+    {
+      "uuid": "01ea7004-115d-497f-9302-ba65c47be6ea",
+      "id": 2,
+      "company": "Apple Inc.",
+      "image": "http://localhost:5000/assets/Apple_logo_grey.png",
+      "title": "History of Apple Inc.",
+      "link": "https://en.wikipedia.org/wiki/History_of_Apple_Inc.",
+      "date": "06/12/2024",
+      "content": "Apple Inc., originally Apple Computer, Inc., is a multinational corporation that creates and markets consumer electronics and attendant computer software, and is a digital distributor of media content. Apple's core product lines are the iPhone smartphone, iPad tablet computer, and the Mac personal computer. The company offers its products online and has a chain of retail stores known as Apple Stores. Founders Steve Jobs, Steve Wozniak, and Ronald Wayne created Apple Computer Co. on April 1, 1976, to market Wozniak's Apple I desktop computer, and Jobs and Wozniak incorporated the company on January 3, 1977, in Cupertino, California.",
+      "status": "Published",
+      "writer": "super admin",
+      "editor": "super admin"
+    },
+    {
+      "uuid": "522a445d-eba5-46b2-8b10-75bf922cf17d",
+      "id": 1,
+      "company": "Jenkins",
+      "image": "http://localhost:5000/assets/jenkins.png",
+      "title": "What is Jenkins?",
+      "link": "https://www.geeksforgeeks.org/what-is-jenkins",
+      "date": "03/07/2025",
+      "content": "Jenkins is a tool that is used for automation. It is mainly an open-source server that allows all the developers to build, test and deploy software. It is written in Java and runs on java only. By using Jenkins we can make a continuous integration of projects(jobs) or end-to-endpoint automation",
+      "status": "For Edit",
+      "writer": "super admin",
+      "editor": "super admin"
+    }
+  ]
+}
