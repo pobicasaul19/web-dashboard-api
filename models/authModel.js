@@ -4,7 +4,7 @@ const authSchema = {
   email: {
     type: String,
     required: true,
-    message: 'Username is required.',
+    message: 'Email is required.',
     validate: {
       custom: (value, { usersCollection }) => {
         const user = usersCollection.data.users.find(user => user.email === value);
