@@ -64,7 +64,7 @@ app.use('/api/articles', createArticle);
 app.use('/api/articles', updateArticle);
 
 // Start the server
-const port = 3000;
+const port = 5000;
 // const apiUri = process.env.APP_URI;
 const apiUri = `http://localhost:${port}`
 const server = app.listen(port, async () => {
