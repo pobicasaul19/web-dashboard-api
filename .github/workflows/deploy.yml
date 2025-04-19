@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Copy Files via SCP
+      uses: actions/checkout@v3
+
+    - name: SSH and Build Backend
+      run: |
+        scp -i ${{ secrets.KEY }} -r . ubuntu@${{ secrets.HOST }}:~/web-dashboard-api
+        
     - name: SSH and Restart Backend
       uses: appleboy/ssh-action@v1.0.0
       with:
