@@ -15,8 +15,8 @@ jobs:
 
     - name: SSH and Build Backend
       run: |
-        scp -i ${{ secrets.KEY }} -r . ubuntu@${{ secrets.HOST }}:~/web-dashboard-api
-        
+        ssh -i ${{ secrets.KEY }} -r . ubuntu@${{ secrets.HOST }}:~/web-dashboard-api
+
     - name: SSH and Restart Backend
       uses: appleboy/ssh-action@v1.0.0
       with:
