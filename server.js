@@ -69,7 +69,7 @@ const port = 5000;
 const apiUri = `http://0.0.0.0:${port}`
 const server = app.listen(port, async () => {
   logger.info(`Server running on ${apiUri}`);
-  logger.info(`Swagger running on ${apiUri}/documentation`);
+  logger.info(`Swagger running on ${apiUri}/api/documentation`);
 });
 
 // Increase the timeout settings
