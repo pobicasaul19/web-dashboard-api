@@ -11,12 +11,13 @@ jobs:
 
     steps:
     - name: SSH and Restart Backend
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v1.0.0
       with:
         host: ${{ secrets.HOST }}
         username: ubuntu
         key: ${{ secrets.KEY }}
         script: |
           cd ~/web-dashboard-api
+          git pull origin main
           npm install
-          pm2 restart backend || pm2 start server.js --name backend
+          pm2 restart server.js --name backend
